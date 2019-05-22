@@ -1,0 +1,8 @@
+/* .hw_toc { list-style: none; } */
+ul.hw_toc li { 
+    list-style: none;    
+}
+
+ul.hw_toc li a {
+    color: #238799;
+}
