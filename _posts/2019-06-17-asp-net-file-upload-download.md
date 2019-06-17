@@ -67,3 +67,9 @@ public HttpResponseMessage Get(string file1, string file2) {
 ```
 
 *TO-DO: Add the upload options*
+
+Relevant sections from the MSDN documentation: [Sending HTML Form Data](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/sending-html-form-data-part-2), [Action Results in Web API 2](https://docs.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/action-results).
+
+Classes used: [StreamContent](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.streamcontent), [HttpResponseMessage](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpresponsemessage).
+
+Also relevant: [Why should I use IHttpActionResult instead of HttpResponseMessage](https://stackoverflow.com/questions/21758615/why-should-i-use-ihttpactionresult-instead-of-httpresponsemessage).
